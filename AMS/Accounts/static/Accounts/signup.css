@@ -1,0 +1,83 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	width:100%;
+	height:100vh;
+	overflow:hidden;
+	font-family: 'Roboto', sans-serif;
+	font-weight:800;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:#5c5a5a;
+	background-color:#f0f3f5;
+}
+#login{
+	width:500px;
+	height:600px;
+	background-color:#f0f3f5;
+	padding:70px 30px 40px 30px;
+	border-radius:40px;
+	box-shadow:15px 15px 25px #c6c9cc,-15px -15px 25px #fff;
+}
+#head{
+	text-align:center;
+	font-size:40px;
+	font-weight:bolder;
+	letter-spacing:5px;
+}
+#fields{
+	width:100%;
+	padding:10px 5px 5px 5px;
+}
+.input{
+	border:none;
+	outline:none;
+	background:none;
+	color:#5c5a5a;
+	font-size:1.4em;
+	padding:10px 10px 10px 5px; 
+}
+.field{
+	margin-bottom:20px;
+	border-radius:15px;
+	box-shadow:inset 7px 7px 7px #c6c9cc,inset -7px -7px 7px #fff; 
+}
+
+.svg-icon {
+  width: 1.4em;
+  height: 1.4em;
+  margin:0px 5px -3px 20px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #5c5a5a;
+}
+
+.svg-icon circle {
+  stroke: #5c5a5a;
+  stroke-width: 1;
+}
+
+#submit{
+	width:100%;
+	text-align:center;
+}
+#submit button{
+	padding:10px 25px 10px 25px;
+	border-radius:20px;
+	font-size:1.2em;
+	cursor:pointer;
+	margin:20px 0px 20px 0px;
+	border:none;
+	outline:none;
+	background-color:#05f71d;
+	transition-delay:0.05s;
+	box-shadow:3px 3px 3px #5c5a5a,-5px -5px 5px #fff;  
+}
+#submit button:hover{
+	background-color:#5ff740;
+}
